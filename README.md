@@ -4,7 +4,7 @@ Check out the result: https://tursics.github.io/opendataday2025/
 
 ## About the project
 
-Am Internationalen Open Data Day 2025 am 1. März haben wir uns in Flensburg getroffen. Nach ein paar Inpulsvorträgen am Vormittag haben wir am Nachmittag Online-Karten vom Scratch gebaut. Ich habe die Idee der neuen Denkmalliste aus Schleswig-Holstein aufgegriffen und auf einer Karte visualisiert.
+We met in Flensburg on the International Open Data Day 2025 on March 1st. After a few keynote speeches in the morning, we built online maps from Scratch in the afternoon. I took up the idea of ​​the new list of monuments from Schleswig-Holstein and visualized it on a map.
 
 ## Implementation
 
