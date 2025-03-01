@@ -1,5 +1,7 @@
 # Workshop Open Data Day 2025
 
+<img src="https://github.com/tursics/opendataday2025/blob/main/flensburg.gif?raw=true">
+
 Check out the result: https://tursics.github.io/opendataday2025/
 
 ## About the project
