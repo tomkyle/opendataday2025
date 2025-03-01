@@ -2,7 +2,7 @@ const MAPTILER_KEY = 'get_your_own_OpIi9ZULNHzrESv6T2vL';
 const map = new maplibregl.Map({
 //    style: `https://api.maptiler.com/maps/basic-v2/style.json?key=${MAPTILER_KEY}`,
 //    style: `https://api.maptiler.com/maps/basic-v2/style.json?key=${MAPTILER_KEY}`,
-    center: [54.7833021, 9.4333264],
+    center: [9.4333264, 54.7833021],
     zoom: 13,
     pitch: 45,
     bearing: -17.6,
@@ -17,10 +17,10 @@ const map = new maplibregl.Map({
                     // NOTE: Layers from Stadia Maps do not require an API key for localhost development or most production
                     // web deployments. See https://docs.stadiamaps.com/authentication/ for details.
                     'https://tiles.oklabflensburg.de/fosm/{z}/{x}/{y}.png'
+//                    'https://tiles.stadiamaps.com/tiles/stamen_watercolor/{z}/{x}/{y}.jpg'
                 ],
                 'tileSize': 256,
-                'attribution':
-                    'Map tiles by <a target="_blank" href="https://stamen.com">Stamen Design</a>; Hosting by <a href="https://stadiamaps.com/" target="_blank">Stadia Maps</a>. Data &copy; <a href="https://www.openstreetmap.org/about" target="_blank">OpenStreetMap</a> contributors'
+                'attribution': '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
             }
         },
         'layers': [
