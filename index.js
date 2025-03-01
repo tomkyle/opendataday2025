@@ -4,7 +4,8 @@ const map = new maplibregl.Map({
     container: 'map',
     style: 'https://sgx.geodatenzentrum.de/gdz_basemapde_vektor/styles/bm_web_gry.json',
     center: [9.4333264, 54.7833021],
-    zoom: 13,
+//    center: [9.6655633813, 53.7559512825],
+    zoom: 15,
     pitch: 60,
     bearing: -17.6,
     canvasContextAttributes: {antialias: true},
@@ -39,7 +40,13 @@ map.on('load', () => {
         'source': {
             'type': 'geojson',
 //            'data': 'https://basemap.de/data/produkte/web_vektor/anwendungsbeispiele/geojson/baudenkmale_brandenburg.geojson'
-            'data': './stadt-flensburg.json'
+//            'data': 'https://tursics.github.io/opendataday2025/stadt-flensburg-denkmalschutz.geojson'
+//            'data': 'https://tursics.github.io/opendataday2025/denkmalliste_geometrien.geojson'
+            // https://opendata.schleswig-holstein.de/dataset/b-plan-b-90
+//            'data': 'https://opendata.schleswig-holstein.de/data/elmshorn/Bebauungsplaene/B%2090/Elm_BP_090.json'
+            // https://opendata.schleswig-holstein.de/dataset/geodaten-denkmalliste-sh-2025-03-01
+//            'data': 'https://opendata.schleswig-holstein.de/dataset/2d2e094b-582a-4dcb-a217-875ad25f280b/resource/2d689e75-fbed-41fe-960c-fa11ddb4d837/download/geodaten-denkmalliste-sh.geojson'
+            'data': 'https://raw.githubusercontent.com/tursics/opendataday2025/refs/heads/main/denkmalliste-flensburg.geojson'
         },
         'paint': {
         'fill-extrusion-color': 'rgba(215, 59, 59, 1)',
@@ -90,3 +97,4 @@ map.on('load', () => {
 // https://nominatim.oklabflensburg.de/search?q=norderstra%C3%9Fe%2049,%20flensburg&format=geocodejson&addressdetails=1
 
 // https://opendata.schleswig-holstein.de/dataset/cce3d31f-1a8a-4840-8fd7-986face6f229/resource/1aff4674-b6e7-4608-bec5-f81b3656eaf0
+// https://github.com/oklabflensburg/open-monuments-map/blob/main/data/stadt-flensburg-denkmalschutz.geojson
