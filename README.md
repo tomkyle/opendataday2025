@@ -1,14 +1,17 @@
-# Workshop Open Data Day 2025
+# Workshop Open Data Day 2025 · Kiel Edition
 
-<img src="https://github.com/tursics/opendataday2025/blob/main/flensburg.gif?raw=true">
+This monuments map for Kiel, Schleswig-Holstein, is based on the [Open Data Day 2025 map](https://tursics.github.io/opendataday2025/) by Thomas Tursics. As data source, this map uses a prebuilt GeoJSON distribution [Historische Kulturdenkmale in Geo-Formaten · Kreis Kiel](https://opendata.tomkyle.net/denkmallisten/denkmalpflege/kiel) from my side project *opendata.tomkyle.net.*
 
-Check out the result: https://tursics.github.io/opendataday2025/
+**Make your own!** For a list of available GeoJSON for monuments in Schleswig-Holstein and its districts, see JSON map in [index.js](./index.js).
 
 ## About the project
+
+as authored by Thomas Tursics
 
 We met in Flensburg on the International Open Data Day 2025 on March 1st. After a few keynote speeches in the morning, we built online maps from Scratch in the afternoon. I took up the idea of ​​the new list of monuments from Schleswig-Holstein and visualized it on a map.
 
 ## Implementation
+as authored by Thomas Tursics
 
 1. The basic structure of a map was set up with HTML, JS, CSS and a little boilerplate. I chose MapLibre GL JS because it allows you to use vector maps that can be zoomed, rotated, tilted as desired and thus also display 3D buildings.
 
