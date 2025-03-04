@@ -4,9 +4,13 @@
 
 **Monument maps for entire Schleswig-Holstein and its single districts:**
 
+The maps are based on the [Open Data Day 2025 map](https://tursics.github.io/opendataday2025/) by Thomas Tursics. As data source, the maps use the prebuilt GeoJSON distributions from my side project *opendata.tomkyle.net:* [Historische Kulturdenkmale in Geo-Formaten](https://opendata.tomkyle.net/denkmallisten/denkmalpflege) 
+
+## Screenshot
+
 **[View Maps](https://tomkyle.github.io/opendataday2025/)**
 
-The maps are based on the [Open Data Day 2025 map](https://tursics.github.io/opendataday2025/) by Thomas Tursics. As data source, the maps use the prebuilt GeoJSON distributions from my side project *opendata.tomkyle.net:* [Historische Kulturdenkmale in Geo-Formaten](https://opendata.tomkyle.net/denkmallisten/denkmalpflege) 
+![Screenshot of maps overview page](images/index-page.png)
 
 ## About the project
 
