@@ -2,7 +2,7 @@
 
 
 
-**Monument maps for entire Schleswig-Holstein and its single districts: **
+**Monument maps for entire Schleswig-Holstein and its single districts:**
 
 **[View Maps](./index.html)** 
 
