@@ -35,6 +35,9 @@ export function initializeMap(districtID, options = {}) {
         pitch: mapOptions.pitch,
         bearing: mapOptions.bearing,
         canvasContextAttributes: {antialias: true},
+        attributionControl: {
+            customAttribution: "github.com/tomkyle/opendataday2025"
+        }
     });
 
     // Check if the requested district exists
