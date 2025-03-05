@@ -1,3 +1,21 @@
+:root {
+  color-scheme: light dark;
+  scroll-behavior: smooth;
+
+  /*
+  I love this color scheme:
+  Flexoki by Steph Ango https://stephango.com/flexoki
+  */
+  --flexoki-black:           #100F0F;
+  --flexoki-paper:           #FFFCF0;
+  --flexoki-blue-900:        #12253B;
+}
+
+body {
+    background-color: light-dark(var(--flexoki-paper), var(--flexoki-blue-900));
+    color: light-dark(var(--flexoki-blue-900), var(--flexoki-paper));
+}
+
 body {
     margin: 0;
     padding: 0;

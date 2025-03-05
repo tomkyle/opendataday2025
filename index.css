@@ -1,7 +1,47 @@
+:root {
+  color-scheme: light dark;
+  scroll-behavior: smooth;
+
+  /*
+  I love this color scheme:
+  Flexoki by Steph Ango https://stephango.com/flexoki
+  */
+  --flexoki-black:           #100F0F;
+  --flexoki-paper:           #FFFCF0;
+  --flexoki-blue-900:        #12253B;
+}
+
 body {
     margin: 0;
     font-family: system-ui, sans-serif;
-    padding: 2rem;
+    padding: 2rem 2rem 4rem;
+
+    background-color: light-dark(var(--flexoki-paper), var(--flexoki-blue-900));
+    color: light-dark(var(--flexoki-blue-900), var(--flexoki-paper));
+}
+
+body > header,
+body > footer {
+    text-align: center;
+}
+
+body > header {
+    margin-bottom: 4rem;
+}
+
+
+:is(body > header, body > footer) ul {
+    li { display: inline; }
+    li + li::before { content: " • "; }
+
+    a {
+        font-weight: bold;
+    }
+}
+
+
+h1 > div {
+    font-size: 0.8em;
 }
 
 img {
@@ -21,6 +61,15 @@ img {
 
 @media (min-width: 720px) { .items { grid-template-columns: repeat(2, 1fr); } }
 @media (min-width: 960px) { .items { grid-template-columns: repeat(3, 1fr); }}
+
+.items h2 {
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+  max-width: 520px;
+  ax-width: 24rem;
+  width: 98%;
+}
 
 .items > div {
     margin-bottom: 2rem;
