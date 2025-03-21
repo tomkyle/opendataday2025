@@ -2,6 +2,12 @@
   color-scheme: light dark;
   scroll-behavior: smooth;
 
+  font-size: clamp(1em, 0.9em + 1vw, 1.25em);
+  line-sizing: normal;
+     -moz-text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+          text-size-adjust: none;
+
   /*
   I love this color scheme:
   Flexoki by Steph Ango https://stephango.com/flexoki
@@ -11,10 +17,13 @@
   --flexoki-blue-900:        #12253B;
 }
 
+
 body {
     margin: 0;
-    font-family: system-ui, sans-serif;
     padding: 2rem 2rem 4rem;
+
+    font-family: system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
 
     background-color: light-dark(var(--flexoki-paper), var(--flexoki-blue-900));
     color: light-dark(var(--flexoki-blue-900), var(--flexoki-paper));
@@ -44,6 +53,10 @@ h1 > div {
     font-size: 0.8em;
 }
 
+h2 {
+    font-size: 1.15em;
+}
+
 img {
     display: block;
     width: 100%;
@@ -55,7 +68,7 @@ img {
 
 .items {
     display: grid;
-    grid-template-columns: repeat( auto-fit, minmax(31ch, 1fr) );
+    grid-template-columns: repeat( auto-fit, minmax(19ch, 1fr) );
     grid-gap: max(1.5rem, 3vw);
 
 }
