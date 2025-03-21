@@ -64,8 +64,6 @@ img {
   overflow:hidden;
   text-overflow:ellipsis;
   white-space: nowrap;
-  max-width: 520px;
-  ax-width: 24rem;
   width: 98%;
 }
 
