@@ -37,15 +37,14 @@ body > footer {
 body > header {
     margin-bottom: 4rem;
 }
-
+body > header a {
+    font-weight: bold;
+}
 
 :is(body > header, body > footer) ul {
     li { display: inline; }
     li + li::before { content: " • "; }
 
-    a {
-        font-weight: bold;
-    }
 }
 
 
